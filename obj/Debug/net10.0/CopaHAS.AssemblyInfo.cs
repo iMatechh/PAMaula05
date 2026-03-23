@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CopaHAS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e8b7339d42175462471d4a42342017b97cdb7bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("CopaHAS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CopaHAS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
