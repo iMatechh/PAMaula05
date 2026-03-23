@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "iYgxL+TL60g=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mathe\\OneDrive\\Área de Trabalho\\CopaHAS\\CopaHAS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mathe\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.1\\microsoft.aspnetcore.openapi.10.0.1.nupkg.sha512",
+    "C:\\Users\\Mathe\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
