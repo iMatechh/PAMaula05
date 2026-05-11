@@ -30,6 +30,7 @@ namespace CopaHAS.Controllers
             new Jogador(){Id = 10, Nome = "Wesley", NumeroCamisa = 36, Posicao = "Atacante", Status = Models.Enuns.statusJogador.Titular},
         };
 
+        // a
         [HttpGet("Nome/{nome}")]
             public IActionResult GetByNome(string nome)
         {
@@ -44,6 +45,7 @@ namespace CopaHAS.Controllers
             return Ok(lista);
         }
 
+        // b
         [HttpGet("Titulares")]
         public IActionResult GetTitulares()
         {
@@ -51,6 +53,7 @@ namespace CopaHAS.Controllers
             return Ok(titulares);
         }
 
+        // c
         [HttpGet("Estatisticas")]
         public IActionResult GetEstatisticas()
         {
@@ -60,6 +63,7 @@ namespace CopaHAS.Controllers
             return Ok( new { QntddJogadores = quantidade, Soma = somaCamisas });
         }
 
+        // d
         [HttpPost("ValidarCamisa")]
         public IActionResult PostValidacao(Jogador j)
         {
@@ -70,6 +74,7 @@ namespace CopaHAS.Controllers
             return Ok(listaJogadores);
         }
 
+        // e
         [HttpPost("PostValidacaoNome")]
         public IActionResult PostValidacaoNome(Jogador j)
         {
@@ -80,6 +85,7 @@ namespace CopaHAS.Controllers
             return Ok(listaJogadores);
         }
 
+        // f
         [HttpGet("GetByStatus/{status}")]
         public IActionResult GetByStatus(string status)
         {
@@ -105,5 +111,5 @@ namespace CopaHAS.Controllers
             List<Jogador> jogadores = listaJogadores.FindAll(j => j.Status == sj);
             return Ok(jogadores);
         }
-}
+    }
 }
