@@ -11,5 +11,9 @@ namespace CopaHAS.Models
         public string Nome { get; set; } = string.Empty;
         public string Cidade { get; set; } = string.Empty;
         public decimal Capacidade { get; set; }
+
+        // 1:N
+        public List<Jogo> Jogos { get; set; }
+        = new List<Jogo>();
     }
 }

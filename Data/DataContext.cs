@@ -53,10 +53,10 @@ namespace CopaHAS.Data
                 new Estadio() { Id = 9, Nome = "Hard Rock Stadium", Cidade = "Miami (FL)", Capacidade = 65326m },
                 new Estadio() { Id = 10, Nome = "GEHA Field at Arrowhead Stadium", Cidade = "Kansas City (MO)", Capacidade = 76416m },
                 new Estadio() { Id = 11, Nome = "Gillette Stadium", Cidade = "Foxborough (MA)", Capacidade = 65878m },
-                
+
                 new Estadio() { Id = 12, Nome = "BC Place", Cidade = "Vancouver", Capacidade = 54500m },
                 new Estadio() { Id = 13, Nome = "BMO Field", Cidade = "Toronto", Capacidade = 30000m },
-                
+
                 new Estadio() { Id = 14, Nome = "Estadio Azteca", Cidade = "Cidade do México", Capacidade = 87000m },
                 new Estadio() { Id = 15, Nome = "Estadio BBVA", Cidade = "Monterrey", Capacidade = 53500m },
                 new Estadio() { Id = 16, Nome = "Estadio Akron", Cidade = "Guadalajara", Capacidade = 49850m }
